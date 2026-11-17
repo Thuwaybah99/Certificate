@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A collection of professional certificates in data analytics, SQL, Excel, Tableau, and generative AI.">
+  <title>My Certifications | Data Analytics</title>
+  <style>
+    :root {
+      --bg: #f6f8fc;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #65718a;
+      --accent: #3157d5;
+      --accent-soft: #edf1ff;
+      --border: #e5e9f2;
+      --shadow: 0 8px 24px rgba(27, 42, 79, .07);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    .page { width: min(1080px, calc(100% - 40px)); margin: 0 auto; padding: 76px 0 64px; }
+    .intro { max-width: 700px; margin-bottom: 38px; }
+    .eyebrow {
+      display: inline-block; margin-bottom: 12px; padding: 5px 11px;
+      border-radius: 999px; background: var(--accent-soft); color: var(--accent);
+      font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(2.1rem, 5vw, 3.3rem); line-height: 1.12; letter-spacing: -.045em; }
+    .intro p { margin: 0; color: var(--muted); font-size: 1.05rem; }
+    .topline { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+    .topline h2 { margin: 0; font-size: 1.15rem; }
+    .count { color: var(--muted); font-size: .9rem; white-space: nowrap; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; }
+    .certificate {
+      display: flex; flex-direction: column; min-height: 188px; padding: 21px;
+      border: 1px solid var(--border); border-radius: 16px; background: var(--surface);
+      color: inherit; text-decoration: none; box-shadow: 0 2px 8px rgba(27,42,79,.025);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .certificate:hover, .certificate:focus-visible {
+      transform: translateY(-4px); border-color: #b8c6ff; box-shadow: var(--shadow); outline: none;
+    }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 22px; }
+    .icon {
+      display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px;
+      background: var(--accent-soft); color: var(--accent); font-size: 1.15rem; font-weight: 800;
+    }
+    .category { color: var(--muted); font-size: .73rem; font-weight: 700; letter-spacing: .055em; text-transform: uppercase; }
+    .certificate h3 { margin: 0 0 12px; font-size: 1.02rem; line-height: 1.4; letter-spacing: -.015em; }
+    .open-link { margin-top: auto; color: var(--accent); font-size: .87rem; font-weight: 700; }
+    .open-link span { display: inline-block; transition: transform .18s ease; }
+    .certificate:hover .open-link span { transform: translateX(4px); }
+    footer { margin-top: 34px; color: var(--muted); font-size: .85rem; text-align: center; }
+    @media (max-width: 800px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 540px) {
+      .page { width: min(100% - 28px, 480px); padding-top: 48px; }
+      .grid { grid-template-columns: 1fr; gap: 12px; }
+      .certificate { min-height: 155px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <span class="eyebrow">Learning &amp; Professional Development</span>
+      <h1>My Certifications</h1>
+      <p>A collection of courses and professional certificates documenting my development in data analytics, data visualization, and business-focused tools.</p>
+    </header>
+
+    <section aria-labelledby="certificates-heading">
+      <div class="topline">
+        <h2 id="certificates-heading">Certificates</h2>
+        <span class="count">12 certificates</span>
+      </div>
+
+      <div class="grid">
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/40Y2GY6NLEO5" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">01</span><span class="category">Data Analytics</span></div>
+          <h3>Google Data Analytics</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/CM8OZMX8DWMG" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">02</span><span class="category">SQL</span></div>
+          <h3>SQL for Data Science</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/2M4RHUVV714D" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">03</span><span class="category">SQL</span></div>
+          <h3>SQL Problem Solving</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/specialization/certificate/TN5DYCRSKGD4" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">04</span><span class="category">Excel</span></div>
+          <h3>Excel Skills for Data Analytics and Visualization</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/CLR3ECY7TEWQ" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">05</span><span class="category">Excel</span></div>
+          <h3>Excel Power Tools for Data Analysis</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/5LLFNDH5UC23" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">06</span><span class="category">Excel</span></div>
+          <h3>Data Visualization in Excel</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/BP37GN9NARI8" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">07</span><span class="category">Business Analytics</span></div>
+          <h3>Business Analytics with Excel: Elementary to Advanced</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/specialization/certificate/BW6JWVV02V5K" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">08</span><span class="category">Tableau</span></div>
+          <h3>Tableau Data Analyst Certification Preparation</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/AEPIECTVY2KK" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">09</span><span class="category">Tableau</span></div>
+          <h3>Advanced Data Visualization with Tableau</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/H4Y2KB03UAWR" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">10</span><span class="category">Project Management</span></div>
+          <h3>Introduction to Project Management</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/3ELNV5RIKTU1" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">11</span><span class="category">Generative AI</span></div>
+          <h3>Introduction to Generative AI</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+
+        <a class="certificate" href="https://www.coursera.org/account/accomplishments/verify/KWK7WPVXEFC" target="_blank" rel="noopener noreferrer">
+          <div class="card-top"><span class="icon">12</span><span class="category">AI Productivity</span></div>
+          <h3>Gemini in Gmail</h3>
+          <span class="open-link">View certificate <span>→</span></span>
+        </a>
+      </div>
+    </section>
+
+    <footer>Each certificate opens its Coursera verification page in a new tab.</footer>
+  </main>
+</body>
+</html>
